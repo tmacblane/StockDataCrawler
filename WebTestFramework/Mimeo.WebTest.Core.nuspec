@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Mimeo.WebTest.Core</id>
+		<version>1.0.0.0</version>
+		<authors>TJ MacBlane, Bill Young</authors>
+		<owners>Mimeo.com,Inc.</owners>
+		<projectUrl>http://developer.mimeo.com/</projectUrl>
+		<iconUrl>http://my.mimeo.com/favicon.ico</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Mimeo.WebTest.Core</description>
+		<summary>Mimeo.WebTest.Core</summary>
+		<tags>Mimeo TestFramework Core</tags>
+	</metadata>
+	<files>		
+		<file src="**\Selenium.WebDriverBackedSelenium.dll" target="lib\Net40\Selenium.WebDriverBackedSelenium.dll" />
+		<file src="**\ThoughtWorks.Selenium.Core.dll" target="lib\Net40\ThoughtWorks.Selenium.Core.dll" />
+		<file src="**\WebDriver.dll" target="lib\Net40\WebDriver.dll" />
+		<file src="**\WebDriver.Support.dll" target="lib\Net40\WebDriver.Support.dll" />
+		<file src="**\Mimeo.WebTest.Core.dll" target="lib\Net40\Mimeo.WebTest.Core.dll" />
+		<file src="**\Mimeo.WebTest.Core.pdb" target="lib\Net40\Mimeo.WebTest.Core.pdb" />
+	</files>
+</package>

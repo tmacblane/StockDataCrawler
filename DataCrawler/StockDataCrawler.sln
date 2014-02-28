@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCrawler", "DataCrawler.csproj", "{B3957C2C-2141-4C2C-8132-7201E2AC9530}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{17678F7D-223B-4E99-AC7E-20714829084F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest.Core", "..\WebTestFramework\Mimeo.WebTest.Core\WebTest.Core.csproj", "{91E1EFFC-9093-4B05-A5D5-389BBDF28650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investing.DBModel", "..\Investing.DBModel\Investing.DBModel.csproj", "{C1E0FC6E-4E65-4590-B259-8D12CFC0AC06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3957C2C-2141-4C2C-8132-7201E2AC9530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3957C2C-2141-4C2C-8132-7201E2AC9530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3957C2C-2141-4C2C-8132-7201E2AC9530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3957C2C-2141-4C2C-8132-7201E2AC9530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E1EFFC-9093-4B05-A5D5-389BBDF28650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E1EFFC-9093-4B05-A5D5-389BBDF28650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E1EFFC-9093-4B05-A5D5-389BBDF28650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E1EFFC-9093-4B05-A5D5-389BBDF28650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E0FC6E-4E65-4590-B259-8D12CFC0AC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E0FC6E-4E65-4590-B259-8D12CFC0AC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E0FC6E-4E65-4590-B259-8D12CFC0AC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E0FC6E-4E65-4590-B259-8D12CFC0AC06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
